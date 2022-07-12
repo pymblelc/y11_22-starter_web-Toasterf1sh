@@ -1,0 +1,166 @@
+body {
+  background-color:#141B41;
+  font-family: "Helvetica";
+}
+
+.div {
+  color: #141B41;
+}
+
+.div1 {
+  background-color: #6F9CEB  ;
+  padding-top: 1px;
+  padding-bottom: 10px;
+  display: flex;
+  width: 100%;
+
+}
+
+.heading5 {
+  text-indent: 50px;
+  display: flex;
+  font-family: "Helvetica";
+}
+
+.heading1 {
+  text-indent: 50px;
+  padding-right: 50x;
+  line-height: 5px;
+  font-family: "Helvetica";
+}
+
+.heading4 {
+  padding-right: 10px;
+  padding-top: 50px;
+  display: flex;
+  font-family: "Helvetica";
+  text-indent: 100px;
+}
+
+.main {
+  background-color: #6F9CEB ;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  font-family: "Helvetica";
+}
+
+#cursedbutton {
+  margin-left: 50px;
+  background-color:#98B9F2 ;
+  color: #F0F7F4;
+  padding: 5px;
+  border-color:#99E1D9;
+  font-family: "Helvetica";
+}
+
+.hiddentext3 {
+  color:#6F9CEB  ;
+  line-height: 5px;
+}
+
+.image1 {
+  width: 450px;
+  height: auto;
+}
+
+#paragraph {
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  font-family: 'Helvetica';
+
+}
+
+#paragraph::after {
+  content: "\a";
+  white-space: pre;
+}
+
+#paragraph2 {
+  text-indent: 200px;
+}
+
+.myface {
+  width: 210px;
+  height: 210px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.column {
+  margin: 20px;
+  display: flex;
+  font-family: "Helvetica";
+}
+
+.facts {
+  background-color: #6F9CEB;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 20px;
+  border-radius: 10px 10px 0px 0px;
+}
+.column1 {
+  background-color: #306bac;
+  line-height: 20%;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.shorttext {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.columnheading2 {
+  width: 20%;
+
+}
+
+.moreinformation {
+  display: flex;
+  background-color: #306bac ;
+  border-radius: 10px;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.type {
+  padding-top: 20px;
+}
+
+.favouritecolour {
+  color: #0291aa;
+}
+
+.button {
+  background-color: #3eccd4;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 180px 200px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: url("https://c.tenor.com/_4YgA77ExHEAAAAC/rick-roll.gif");
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+  color: red;
+}
+
+.moreinformation2 {
+  padding-left: 200px;
+  color: white;
+
+}
+
